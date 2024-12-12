@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Activity Logger</string>
+    <string name="test_text">Test Text</string>
+    <string name="add_new_activity_info">Add new activity</string>
+    <string name="title">Title</string>
+    <string name="real_numbers">Real numbers</string>
+    <string name="integer_numbers">Integer numbers</string>
+    <string name="best_is_min">Best is Min</string>
+    <string name="best_is_max">Best is Max</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="activity_logger">Activity Logger</string>
+    <string name="date_not_implemented" translatable="false">01.02.2005NI</string>
+    <string name="edit">Edit</string>
+    <string name="number_not_implemented" translatable="false">38NI</string>
+    <string name="best">Best: </string>
+    <string name="total">Total: </string>
+    <string name="chevron_down" translatable="true">Chevron Down</string>
+    <string name="chevron_up" translatable="true">Chevron Up</string>
+    <string name="fill_in_the_title">Fill in the title.</string>
+    <string name="error">Error!</string>
+    <string name="time_not_implemented" translatable="false">10:51NI</string>
+    <string name="quantity">Quantity</string>
+    <string name="override_date">Override date</string>
+    <string name="add_record">Add record</string>
+    <string name="add_new_activity">Add new activity</string>
+    <string name="remove_date_override">Remove Date Override</string>
+    <string name="delete">Delete</string>
+    <string name="close">Close</string>
+    <string name="edit_activity">Edit Activity</string>
+    <string name="share">Share</string>
+    <string name="share_userdata">Share Userdata</string>
+    <string name="export_userdata">Export Userdata</string>
+    <string name="import_userdata">Import Userdata</string>
+    <string name="import_activity">Import Activity</string>
+    <string name="save">Save</string>
+    <string name="new_activity_added">New Activity Added!</string>
+    <string name="invalid_quantity_format_on_line">Invalid quantity format on line</string>
+    <string name="invalid_date_format_on_line">Invalid date format on line</string>
+    <string name="provided_csv_has_invalid_number_of_values_on_line">Provided CSV has invalid number of values on line</string>
+    <string name="provided_csv_is_missing">Provided CSV is missing</string>
+    <string name="header">header</string>
+    <string name="activity_imported_successfully">Activity imported successfully</string>
+    <string name="failed_to_import_activity">Failed to import activity</string>
+    <string name="invalid_type_csv_file_expected">Invalid type! CSV file expected</string>
+    <string name="failed_to_import_userdata">Failed to import Userdata</string>
+    <string name="userdata_imported_successfully">Userdata imported successfully</string>
+    <string name="file_import_warning">You are about to import the Userdata from an external file. This will result in current Userdata loss. This action cannot be undone. Make sure you have exported Userdata before importing if you need!</string>
+    <string name="_import">Import</string>
+    <string name="share_userdata_as_json">Share Userdata as JSON</string>
+    <string name="delete_day_of_records">Delete Day of Records?</string>
+    <string name="delete_day_warning">Are you sure you want to delete this day’s records? This action cannot be undone.</string>
+    <string name="delete_activity">Delete Activity?</string>
+    <string name="delete_activity_warning">Are you sure you want to delete this activity and all its associated data? This action cannot be undone.</string>
+    <string name="share_csv">Share CSV</string>
+    <string name="delete_record">Delete Record?</string>
+    <string name="delete_record_warning">Are you sure you want to delete this record? This action cannot be undone.</string>
+</resources>

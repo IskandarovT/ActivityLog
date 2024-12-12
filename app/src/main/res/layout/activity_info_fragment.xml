@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/activity_info_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/black"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:background="@color/gray"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:paddingVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/quantity_edit_text"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingVertical="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center"
+                android:background="@drawable/transparent_background"
+                android:hint="@string/quantity"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"
+                android:textColorHint="@color/blue_light"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round_corners_42dp_semi_transparent_white">
+
+                <ImageButton
+                    android:id="@+id/remove_date_override_button"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/transparent_background"
+                    android:contentDescription="@string/remove_date_override"
+                    android:src="@drawable/x"
+                    android:visibility="gone"
+                    app:tint="@color/charcoal" />
+
+                <LinearLayout
+                    android:id="@+id/overridden_date_text_view_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingHorizontal="10dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/overridden_date_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/date_not_implemented"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/override_date_button"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/blue_light_round_button"
+                    app:tint="@color/charcoal"
+                    android:contentDescription="@string/override_date"
+                    android:src="@drawable/calendar" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="0dp" />
+
+            <ImageButton
+                android:layout_gravity="center"
+                android:id="@+id/add_entry_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/transparent_background"
+                android:contentDescription="@string/add_record"
+                android:enabled="false"
+                android:src="@drawable/upload"
+                app:tint="@color/blue_light" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+    </LinearLayout>
+</LinearLayout>

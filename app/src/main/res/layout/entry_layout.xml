@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/ripple_round_corners_10dp_charcoal"
+    android:orientation="horizontal"
+    android:paddingVertical="10dp">
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/date_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/time_not_implemented"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/number_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/number_not_implemented"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+    <LinearLayout
+        android:id="@+id/context_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/gray"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <ImageButton
+            android:layout_marginHorizontal="5dp"
+            android:id="@+id/close_context_menu_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="start"
+            android:background="@drawable/blue_light_round_button"
+            android:contentDescription="@string/close"
+            android:src="@drawable/x" />
+
+        <ImageButton
+            android:layout_marginHorizontal="5dp"
+            android:id="@+id/delete_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="end"
+            android:background="@drawable/warning_round_button"
+            android:contentDescription="@string/delete"
+            android:src="@drawable/trash" />
+
+    </LinearLayout>
+
+</LinearLayout>
